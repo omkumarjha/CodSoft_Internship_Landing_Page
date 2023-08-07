@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+/* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 85vw;
+    margin: auto;
+}
+
+main {
+    height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 15px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom: -6px;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+ul li a:hover::before {
+    width: 100%;
+}
