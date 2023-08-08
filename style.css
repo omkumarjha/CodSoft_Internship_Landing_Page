@@ -17,6 +17,10 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    padding: 0px 30px;
+    height: 60px;
 }
 
 #navbar ul {
@@ -25,7 +29,7 @@
 
 #navbar ul li {
     list-style: none;
-    margin: 0px 15px;
+    margin: 0px 20px;
     position: relative;
 }
 
@@ -40,7 +44,7 @@
     height: 3px;
     position: absolute;
     bottom: -6px;
-    background-color: pink;
+    background-color: orange;
     transition: 0.5s;
 }
 
@@ -81,19 +85,27 @@
 .leftPart p {
     line-height: 1.5;
     font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .leftPart h1 {
-    font-size: 34px;
+    font-size: 2.5rem;
 }
 
 .btn {
     margin: 10px 0px;
     padding: 5px 36px;
     font-size: 21px;
-    border-radius: 21px;
+    border-radius: 6px;
     cursor: pointer;
-    background-color: pink;
+    transition: background-color 1s ease-out;
+    background: white;
+    border: 2px solid orange;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
 }
 
 /* Main Section 2 CSS */
@@ -122,6 +134,7 @@
 .bottom ul li {
     list-style: none;
     margin: 10px 0px;
+    text-align: center;
 }
 
 .top {
@@ -153,10 +166,34 @@
 }
 
 .section2-header{
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .section2-header h1{
     font-size: 3.5rem;
     font-weight: 300;
+}
+
+/* Main section3 css */
+
+.section3-header{
+    margin-top: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.section3-header h1{
+    font-size: 2rem;
+}
+.section3-header p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Footer section */
+
+footer{
+    border: 2px solid black;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0px;
 }
