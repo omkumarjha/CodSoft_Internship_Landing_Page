@@ -2,7 +2,7 @@
 
 /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -50,4 +50,53 @@ ul li a::before {
 
 ul li a:hover::before {
     width: 100%;
+}
+
+/* Main section CSS */
+
+#section1 {
+    height: 50vh;
+    margin-top: 20px;
+    display: flex;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.leftPart {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rightPart {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftPart p,h1 {
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.leftPart p{
+    line-height: 1.5;
+}
+
+.leftPart h1 {
+    font-size: 34px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.btn {
+    margin: 10px 0px;
+    padding: 5px 36px;
+    font-size: 21px;
+    border-radius: 21px;
+    cursor: pointer;
+    background-color: pink;
 }
