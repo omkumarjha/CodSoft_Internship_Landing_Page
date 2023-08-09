@@ -182,12 +182,62 @@
     margin-top: 30px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+
 .section3-header h1{
-    font-size: 2rem;
+    font-size: 3.2rem;
+    font-weight: 300;
 }
+
 .section3-header p{
     text-align: center;
     font-size: 1.2rem;
+}
+
+.faq{
+    border-bottom: 1px solid rgba(51, 35, 35, 0.13);
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.answer{
+    max-height: 0px;
+    transition: max-height 1s ease;
+    overflow: hidden;
+}
+
+.faq.active .answer{
+    max-height: 30vh;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform 0.5s ease-in;
+}
+
+.question h3{
+    font-size: 1.3rem;
+}
+
+.answer p{
+    font-size: 1.1rem;
+    padding: 8px 0px;
+    line-height: 1.7rem;
+}
+
+.faq:hover{
+    background-color: rgba(0, 0, 0, .03);
+    cursor: pointer;
 }
 
 /* Footer section */
@@ -197,4 +247,6 @@ footer{
     margin-top: 40px;
     text-align: center;
     padding: 10px 0px;
+
+    height: 200px;
 }
