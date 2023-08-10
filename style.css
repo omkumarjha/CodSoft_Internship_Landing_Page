@@ -247,10 +247,47 @@ svg{
 /* Footer section */
 
 footer{
-    border: 2px solid black;
     margin-top: 40px;
-    text-align: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
-    height: 200px;
+footer .logo{
+    position: relative;
+    bottom: 35px;
+}
+
+footer h2{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.company , .community , .links{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    transition: color 1s ease;
+    font-size: 17px;
+}
+
+footer a:hover,svg:hover{
+    color: orange;
+}
+
+.icons{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: start;
+}
+
+svg{
+    padding-right: 18px;
+    transition: color 1s ease;
+    cursor: pointer;
 }
