@@ -113,6 +113,7 @@
 
 #section2{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding: 40px 0px;
 }
 
 .boxes {
@@ -167,7 +168,6 @@
 }
 
 .section2-header{
-    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -178,8 +178,10 @@
 
 /* Main section3 css */
 
+#section3{
+    padding: 40px 0px;
+}
 .section3-header{
-    margin-top: 30px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
@@ -227,12 +229,14 @@ svg{
 
 .question h3{
     font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .answer p{
     font-size: 1.1rem;
     padding: 8px 0px;
     line-height: 1.7rem;
+    font-weight: 300;
 }
 
 .faq:hover{
