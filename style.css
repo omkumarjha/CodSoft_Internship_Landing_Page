@@ -101,6 +101,7 @@
     transition: all 0.5s ease-out;
     background: white;
     border: 2px solid orange;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .btn:hover{
@@ -132,6 +133,7 @@
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
     margin: 15px 20px;
     flex-grow: 1;
+    border-radius: 8px;
 }
 
 .bottom ul li {
