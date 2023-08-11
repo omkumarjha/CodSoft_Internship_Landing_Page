@@ -1,0 +1,249 @@
+@media(max-width: 1100px){
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .section3-header h1 {
+        font-size: 2.9rem;
+    }
+    .faq h3{
+        font-size: 1.1rem;
+    }
+    .faq svg{
+        width: 18px;
+        padding-right: unset;
+    }
+    .answer p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .section2-header h1 {
+        font-size: 3.3rem;
+    }
+    .section2-header p {
+        font-size: 1.2rem;
+    }
+    .top h2{
+        font-size: 22px;
+    }
+    .bottom h2{
+        font-size: 28px;
+    }
+    .btn{
+        padding: 5px 25px;
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 1350px){
+    .rightPart img{
+        width: 250px;
+    }
+}
+
+@media(max-width: 1200px){
+    .leftPart{
+        width: 100%;
+    }
+    .rightPart{
+        display: none;
+    }
+    #section1{
+        padding-bottom: none; 
+        padding: 50px 0px;
+    }
+}
+
+@media(max-width: 900px) {
+    .btn{
+        font-size: 18px;
+    }
+    .leftPart h1{
+        font-size: 2.1rem;
+    }
+    .leftPart p{
+        font-size: 1rem;
+    }
+    footer h2{
+        font-size: 18px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    #section2{
+        padding: 20px 0px;
+    }
+    .section2-header{
+        margin-bottom: 18px;
+    }
+    #section3{
+        padding: 15px 0px;
+    }
+}
+
+@media(max-width: 800px){
+    .leftPart img{
+        width: 150px;
+    }
+    .leftPart h1{
+        font-size: 1.9rem;
+    }
+    .btn{
+        font-size: 17px;
+    }
+    #section1{
+        padding: 25px 0px;
+    }
+}
+
+
+
+@media(max-width: 700px){
+    footer{
+        width: 93vw;
+    }
+    #navbar{
+        flex-direction: column;
+        height: unset;
+        padding: 15px 0px;
+    }
+    #logo img{
+        width: 85px;
+    }
+    #logo{
+        margin-bottom: 14px;
+    }
+    ul li a{
+        font-size: 15px;
+    }
+    .section3-header h1 {
+        font-size: 2.6rem;
+    }
+    .faq h3{
+        font-size: 1rem;
+    }
+    .faq svg{
+        width: 15px;
+        padding-right: unset;
+    }
+    .answer p{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .section2-header h1 {
+        font-size: 2.7rem;
+    }
+    .section2-header p {
+        font-size: 1rem;
+    }
+    .top h2{
+        font-size: 20px;
+    }
+    .bottom h2{
+        font-size: 24px;
+    }
+    .btn{
+        padding: 5px 22px;
+        font-size: 18px;
+    }
+    .bottom ul li{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 680px){
+    .leftPart img{
+        width: 130px;
+    }
+    .leftPart h1{
+        font-size: 1.4rem;
+    }
+    .leftPart p{
+        font-size: 0.9rem;
+    }
+    #section1{
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width : 580px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: unset;
+    }
+    .company , .community , .links{
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .icons{
+        justify-content: space-around;
+        width: 100%;
+    }
+    svg{
+        padding-right: unset;
+    }
+    footer .logo{
+        margin: 30px 0px;
+    }
+
+    .section2-header h1 {
+        font-size: 2.5rem;
+    }
+    .section2-header p {
+        font-size: 0.9rem;
+    }
+    .top h2{
+        font-size: 18px;
+    }
+    .bottom h2{
+        font-size: 22px;
+    }
+    .btn{
+        padding: 3px 20px;
+        font-size: 17px;
+    }
+    .bottom ul li{
+        font-size: 13px;
+    }
+    footer h2{
+        font-size: 17px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 500px){
+    .container{
+        max-width: 95vw;
+    }
+    .leftPart h1{
+        font-size: 1.3rem;
+    }
+    .btn{
+        padding: 2px 16px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 450px){
+    .faq h3{
+        font-size: 1rem;
+    }
+    .faq svg{
+        width: 13px;
+    }
+    .answer p{
+        font-size: 0.9rem;
+    }
+    .section3-header h1 {
+        font-size: 2.4rem;
+    }
+    .section3-header p {
+        font-size: 1.1rem;
+    }
+    #navbar ul li{
+        margin: 0px 15px;
+    }
+}

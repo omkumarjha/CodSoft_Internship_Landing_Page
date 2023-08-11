@@ -56,10 +56,10 @@
 /* Main section 1 CSS */
 
 #section1 {
-    height: 70vh;
     margin-top: 20px;
     display: flex;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding-bottom: 40px;
 }
 
 .leftPart {
@@ -68,11 +68,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .rightPart {
-    width: 30vw;
+    /* width: 30vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +93,7 @@
 }
 
 .btn {
-    margin: 10px 0px;
+    margin: 15px 0px;
     padding: 5px 36px;
     font-size: 21px;
     border-radius: 6px;
@@ -126,11 +125,13 @@
 .box {
     display: flex;
     flex-direction: column;
-    width: 21vw;
+    min-width: 320px;
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(0,0,0,.125);
-    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05)
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    margin: 15px 20px;
+    flex-grow: 1;
 }
 
 .bottom ul li {
@@ -183,6 +184,7 @@
 }
 .section3-header{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin-bottom: 25px;
 }
 
 .section3-header h1{
@@ -247,15 +249,11 @@ svg{
 /* Footer section */
 
 footer{
-    margin-top: 40px;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-}
-
-footer .logo{
-    position: relative;
-    bottom: 35px;
+    width: 85vw;
+    margin: 40px auto;
 }
 
 footer h2{
